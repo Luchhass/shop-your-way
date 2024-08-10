@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+.container {
+    background-image: url(../img/Sharp.jpg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 1024px;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 165px;
+    padding-top: 32px;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.div1 {
+    margin: 266px 260px;
+    text-align: center;
+}
+
+.div1 h3 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 81px;
+    letter-spacing: -0.9px;
+    margin-bottom: 24px;
+}
+
+.div1 h4 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+    margin-bottom: 40px;
+}
+
+.div1 a {
+    color: #FFFFFF;
+    background-color: #094BAC;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+    text-decoration: none;
+    padding: 16px 40px;
+    border-radius: 30px;
+}
+
+.div1 a:hover {
+    background-color: #FFFFFF;
+    color: #094BAC;
+}
